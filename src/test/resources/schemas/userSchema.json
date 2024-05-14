@@ -1,0 +1,43 @@
+{  
+    "$schema": "https://json-schema.org/draft/2019-09/schema#",  
+    "$id+": "http://my-paintings-api.com/schemas/painting-schema.json",  
+    "type": "object",  
+    "title": "Pet",  
+    "description": "Pet Created",  
+    "additionalProperties": true,  
+    "required": ["id", "username", "email", "password", "phone", "userStatus"],  
+    "properties": {  
+        "id": {  
+            "type": "integer",  
+            "description": "Id of user"  
+        },
+        "username": {   
+            "type": "string",  
+            "description": "username"  
+        },  
+        "firstName": {  
+            "type": "string",  
+            "description": "First name"  
+        },
+        "lastName": {  
+            "type": "string",  
+            "description": "Last name"  
+        },
+        "email": {  
+            "type": "string",  
+            "description": "Email"  
+        },
+        "password": {  
+            "type": "string",  
+            "description": "Password"  
+        },
+        "phone": {  
+            "type": "string",  
+            "description": "phone"  
+        },
+        "userStatus": {  
+            "type": "integer",  
+            "description": "User Status"  
+        }
+	}  
+}

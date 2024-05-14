@@ -1,0 +1,23 @@
+{  
+    "$schema": "http://json-schema.org/draft-07/schema",  
+    "$id+": "http://my-paintings-api.com/schemas/painting-schema.json",  
+    "type": "object",  
+    "title": "Pet",  
+    "description": "Version 1-1-0; last updated 2023-07-19",  
+    "additionalProperties": true,  
+    "required": ["code", "type", "message"],  
+    "properties": {  
+        "code": {  
+            "type": "integer",  
+            "description": "Status code"  
+        },  
+        "type": {   
+            "type": "string",  
+            "description": "Type of pet"  
+        },  
+        "message": {  
+            "type": "string",  
+            "description": "Pet Message"  
+        }
+	}  
+}
